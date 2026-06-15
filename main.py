@@ -1,4 +1,4 @@
-sfrom fastapi import FastAPI, Query, HTTPException, status
+from fastapi import FastAPI, Query, HTTPException, status
 from pydantic import BaseModel
 import httpx
 import random
